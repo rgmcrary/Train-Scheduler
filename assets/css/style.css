@@ -25,7 +25,7 @@ h3 {
 #schedTable {
   width: 100%;
   border: 2px solid #008000;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 tr {
@@ -34,6 +34,11 @@ tr {
 
 th {
     color: #008000;
+    text-align: center;
+}
+
+td {
+    text-align: center;
 }
 
 #addTrain {
