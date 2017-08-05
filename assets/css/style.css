@@ -1,0 +1,49 @@
+header {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  background: green;
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: lightgrey;
+  text-align: center;
+}
+
+h3 {
+  background: #008000;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: lightgrey;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 30px;
+}
+
+#schedTable {
+  width: 100%;
+  border: 2px solid #008000;
+  margin-bottom: 20px;
+}
+
+tr {
+  padding: 20px;
+}
+
+th {
+    color: #008000;
+}
+
+#addTrain {
+  border: 2px solid #008000;
+  background: lightgrey;
+  font-size: 14px;
+  padding: 20px;
+}
+
+#submit {
+    background: #008000;
+    color: lightgrey
+}
