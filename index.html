@@ -2,6 +2,7 @@
 <html>
 
 <head>
+
     <meta charset="UTF-8">
     <title>Train Scheduler</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,35 +11,10 @@
         crossorigin="anonymous">
     <link href="assets/css/style.css" rel="stylesheet">
     <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
-    <script>
-        // Initialize Firebase
-        var config = {
-            apiKey: "AIzaSyBcd7My_AkrA_y0qdWe-YnIk3Z2oAMuC04",
-            authDomain: "train-scheduler-b860a.firebaseapp.com",
-            databaseURL: "https://train-scheduler-b860a.firebaseio.com",
-            projectId: "train-scheduler-b860a",
-            storageBucket: "train-scheduler-b860a.appspot.com",
-            messagingSenderId: "630326143015"
-        };
-        firebase.initializeApp(config);
-    </script>
+
     <script src="https://cdn.firebase.com/libs/firebaseui/2.3.0/firebaseui.js"></script>
     <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/2.3.0/firebaseui.css" />
-    <script type="text/javascript">
-        // FirebaseUI config.
-        var uiConfig = {
-            signInSuccessUrl: 'trainscheduler.html',
-            signInOptions: [
-                firebase.auth.GoogleAuthProvider.PROVIDER_ID,
-                firebase.auth.GithubAuthProvider.PROVIDER_ID
-            ]
-        };
 
-        // Initialize the FirebaseUI Widget using Firebase.
-        var ui = new firebaseui.auth.AuthUI(firebase.auth());
-        // The start method will wait until the DOM is loaded.
-        ui.start('#firebaseui-auth-container', uiConfig);
-    </script>
 </head>
 
 <body>
@@ -51,10 +27,13 @@
 
     <div class="container">
         <div class="row sign-in">
-            <h2>Please Sign In To Continue</h2>
+            <h2>Please Sign In</h2>
             <div id="firebaseui-auth-container"></div>
         </div>
     </div>
+
+    <script src="assets/javascript/signin.js"></script>
+
 </body>
 
 </html>
