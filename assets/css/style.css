@@ -9,7 +9,7 @@ header {
   text-align: center;
 }
 
-h2 {
+.logInHeader {
   text-align: center;
   background: #008000;
   color: lightgrey;
